@@ -149,8 +149,11 @@ section { padding: 74px 0; }
 .header-inner { display: flex; align-items: center; gap: 1rem; min-height: 74px; }
 
 .brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; margin-right: auto; }
-.brand-rings { width: 44px; height: 28px; flex: none; }
-.brand-text { display: flex; flex-direction: column; line-height: 1; }
+.brand-logo {
+  display: block; flex: none;
+  height: 64px; width: 224px;
+  object-fit: cover; object-position: center 50%;
+}
 .brand-mark {
   font-family: "Lora", Cambria, Georgia, serif;
   font-size: 1.5rem; font-weight: 700; color: var(--teal-dark); letter-spacing: 0.03em;
@@ -559,7 +562,7 @@ img, iframe, video, svg, table { max-width: 100%; }
   .btn-lg { min-height: 50px; padding: 0.8rem 1.1rem; font-size: 1rem; }
 
   .brand-mark { font-size: 1.3rem; }
-  .brand-rings { width: 36px; height: 24px; }
+  .brand-logo { height: 52px; width: 182px; }
   .header-inner { gap: 0.6rem; min-height: 66px; }
   .nav { top: 66px; }
 
