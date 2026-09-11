@@ -6,7 +6,7 @@
 document.documentElement.classList.add("js");
 
 document.addEventListener("DOMContentLoaded", function () {
-  var WA_NUMBER = "27813582781";
+  var WA_NUMBER = "27754070763";
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---- WhatsApp click-to-chat links (context-specific pre-filled message) ---- */
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       var msg = buildMessage();
       var wa = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg);
-      var mail = "mailto:info@oatherapy.co.za?subject=" +
+      var mail = "mailto:info@oapractice.co.za?subject=" +
         encodeURIComponent("Website enquiry") + "&body=" + encodeURIComponent(msg);
 
       var again = document.getElementById("confirm-wa");
